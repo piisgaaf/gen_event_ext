@@ -5,6 +5,6 @@
    {vsn, "1"},
    {registered, []},
    {applications, [kernel,stdlib]},
-   {env,[]},
-   {mod, {gen_event_ext, [gen_event_caster]}}]}.
+   {modules, [gen_event_caster]},
+   {env,[]}]}.
 

@@ -6,5 +6,5 @@
    {registered, []},
    {applications, [kernel,stdlib]},
    {env,[]},
-   {mod, {gen_event_ext, []}}]}.
+   {mod, {gen_event_ext, [gen_event_caster]}}]}.
 

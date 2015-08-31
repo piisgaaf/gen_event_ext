@@ -3,4 +3,8 @@
 {application, gen_event_caster,
   [{description, "Gen Event Caster"},
    {vsn, "1"},
-   {modules, [gen_event_caster]}]}
+   {registered, []},
+   {applications, [kernel,stdlib]},
+   {env,[]},
+   {modules, []}]}.
+
